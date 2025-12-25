@@ -35,8 +35,7 @@
   --modal-text-color: var(--card-text-color);
   --modal-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   --modal-padding: 1.875rem;
-  --modal-gap: 1.875rem;
-  --modal-width: clamp(21.25rem, 20.982rem + 1.14vw, 22rem);
+  --modal-width: clamp(21.3rem, 14.5rem + 8.333vw, 22.063rem);
 
   --filter-sepia: sepia(80%);
   --filter-saturate: saturate(250%);
