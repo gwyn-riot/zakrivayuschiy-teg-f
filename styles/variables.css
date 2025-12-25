@@ -1,1 +1,62 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
+  --card-text-weight: 400;
+  --card-title-weight: 700;
+  --card-border-weight: var(--card-title-weight);
+  font-size: 18px;
+
+  --background-gradient: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
+
+  --container-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+  --logo-font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  --title-font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --header-padding: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem) 0 1.563rem;
+
+  --card-bg-color: #fff;
+  --card-border-color: #000;
+  --card-text-color: #000;
+  --button-bg-color: #fff;
+  --button-border-color: #000;
+  --button-text-color: #000;
+
+  --label-stroke-color: #fff;
+  --label-text-color: #000;
+  --label-stroke-width: 1px;
+
+  --modal-bg-color: var(--card-bg-color);
+  --modal-border-color: var(--card-border-color);
+  --modal-text-color: var(--card-text-color);
+  --modal-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  --modal-padding: 1.875rem;
+  --modal-gap: 1.875rem;
+  --modal-width: clamp(21.25rem, 20.982rem + 1.14vw, 22rem);
+
+  --filter-sepia: sepia(80%);
+  --filter-saturate: saturate(250%);
+  --filter-brightness: brightness(120%) contrast(110%);
+  --filter-hue-rotate: hue-rotate(90deg);
+  --filter-grayscale: grayscale(100%);
+  --filter-blur: blur(2px);
+  --filter-multi: invert(1) hue-rotate(180deg);
+
+  --accent-color: #000;
+  --button-hover-bg: #000;
+  --button-text-hover: #fff;
+  --button-shadow: 2px 2px 0 var(--accent-color);
+  --button-text-color: #fff;
+  --button-text-color-inverted: #000;
+
+  --header-bg-color: #fff;
+  --header-border-color: var(--card-border-color);
+  --header-margin-bottom: clamp(6.125rem, 5.604rem + 2.22vw, 7.5rem);
+
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+}
