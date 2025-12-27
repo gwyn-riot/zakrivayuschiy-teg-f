@@ -4,7 +4,6 @@
   --card-text-weight: 410;
   --card-title-weight: 715;
   --card-border-weight: var(--card-title-weight);
-  font-size: 18px;
 
   --background-gradient: repeating-linear-gradient(
       90deg,
@@ -53,7 +52,7 @@
 
   --header-bg-color: #fff;
   --header-border-color: var(--card-border-color);
-  --header-margin-bottom: 94px;
+  --header-margin-bottom: 98px;
 
   --contour-color: #000;
   --animation-fill-color: #ff0000;
