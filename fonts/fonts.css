@@ -3,8 +3,8 @@
   font-family: 'Inter-Variable';
   src:
     local('Inter-Variable'),
-    url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
-    url('../fonts/Inter-Variable.woff2') format('woff2-variations');
+    url('./Inter-Variable.woff2') format('woff2 supports variations'),
+    url('./Inter-Variable.woff2') format('woff2-variations');
   font-weight: 400 785; 
   font-display: swap;
 }
@@ -13,7 +13,7 @@
   font-family: 'PressStart2P';
   src:
     local('PressStart2P'),
-    url('../fonts/PressStart2P-Regular.woff') format('woff');
+    url('./PressStart2P-Regular.woff') format('woff');
   font-weight: normal;
   font-display: swap;
 }
