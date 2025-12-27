@@ -1,51 +1,9 @@
-@keyframes modal-open {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-@keyframes modal-close {
-  from {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  to {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.9);
-  }
-}
-
-@keyframes backdrop-fade-in {
-  from {
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(0);
-  }
-  to {
-    background-color: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(2px);
-  }
-}
-
 @keyframes heart-scale {
   from {
     transform: scale(1);
   }
   to {
     transform: scale(1.25);
-  }
-}
-
-@keyframes heart-shrink {
-  from {
-    transform: scale(1.25);
-  }
-  to {
-    transform: scale(1);
   }
 }
 
@@ -128,10 +86,10 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: heart-scale 0.3s 0.1s ease-in forwards,
-    heart-shrink 0.3s 0.4s ease-in forwards;
+  animation: heart-scale 0.3s 0.1s ease-in;
+  transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks-flash 0.3s 0.3s ease-in forwards;
+  animation: sparks-flash 0.3s 0.3s ease-in;
 }
