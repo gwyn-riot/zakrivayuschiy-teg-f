@@ -362,7 +362,7 @@ svg {
   .header {
     margin-block: 98px;
     padding: 126px 0;
-    inline-size: var(--main-width);
+    inline-size: clamp(375px, 50vw, 700px);
   }
 
   .header__logo {
@@ -386,7 +386,7 @@ svg {
 
   .card__title {
     font-size: 18px;
-    padding: clamp(8px, 1.6vw, 12px) clamp(10px, 2.67vw, 15px);
+    padding: 4px 10px;
     border-bottom-width: 2px;
   }
 
